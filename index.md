@@ -2,6 +2,7 @@
 
 ## Part 1
 * This is the code for my **Simplest Search Engine fom week 2**:
+
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -58,6 +59,7 @@ class SearchEngine {
     }
 }
 ```
+
 * This is the result after I using two add and add two values "apple" and "banana". The method handleRequest in my code called. The values of the relevant arguments to those methods are URI url or "/add?s=apple" and "/add?s=banana". The values of any relevant fields of the class are ArrayList<String> lst1 or [apple, banana]. If those values change, they change the array lst1 by adding strings into the array by the time the request is done processing.
 
 ![](https://github.com/tnduong2807/wavelet/blob/master/Screenshot%20(38).png?raw=true)
@@ -72,7 +74,7 @@ class SearchEngine {
 ![](https://github.com/tnduong2807/wavelet/blob/master/Screenshot%20(40).png?raw=true)
 
 ## Part 2
-* First bug in the code from file ArrayExamples.java:
+* **First bug in the code from file ArrayExamples.java:**
 ```
 static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
@@ -94,7 +96,7 @@ static void reverseInPlace(int[] arr) {
   }
 ```
 
-* Second bug in the code from file ListExamples.java:
+* **Second bug in the code from file ListExamples.java:**
 ```
 static List<String> merge(List<String> list1, List<String> list2) {
     List<String> result = new ArrayList<>();

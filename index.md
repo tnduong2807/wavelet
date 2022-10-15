@@ -4,7 +4,6 @@
 * This is the code for my **Simplest Search Engine fom week 2**:
 
 ```
-
 import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
@@ -59,7 +58,6 @@ class SearchEngine {
         Server.start(port, new Handler());
     }
 }
-
 ```
 
 * This is the result after I using two add and add two values "apple" and "banana". The method handleRequest in my code called. The values of the relevant arguments to those methods are URI url or "/add?s=apple" and "/add?s=banana". The values of any relevant fields of the class are ArrayList<String> lst1 or [apple, banana]. If those values change, they change the array lst1 by adding strings into the array by the time the request is done processing.

@@ -60,14 +60,14 @@ class SearchEngine {
 ```
 * This is the result after I using two add and add two values "apple" and "banana". The method handleRequest in my code called. The values of the relevant arguments to those methods are URI url or "/add?s=apple" and "/add?s=banana". The values of any relevant fields of the class are ArrayList<String> lst1 or [apple, banana]. If those values change, they change the array lst1 by adding strings into the array by the time the request is done processing.
 
-![]("C:\Users\duong\OneDrive\Pictures\Screenshots\Screenshot(38).png")
+![](https://github.com/tnduong2807/wavelet/blob/master/Screenshot%20(38).png?raw=true)
 
 * This is the result when I add the value "pineapple" to the already existing array. The method handleRequest in my code called. The values of the relevant arguments to the method is URI url or "/add?s=pineapple". The values of any relevant field of the class are ArrayList<String> lst1 or [apple, banana, pineapple]. If those values change, they change array lst1 by adding strings into the array by the time the request is done processing.
-![]("C:\Users\duong\OneDrive\Pictures\Screenshots\Screenshot(39).png")
+![](https://github.com/tnduong2807/wavelet/blob/master/Screenshot%20(39).png?raw=true)
 
 
 * This is the result when using query search to find the elements in the array that contains the input string. The method handleRequest in my code called. The values of the relevant arguments to the method is URI url or "/search?s=app". The values of any relevant fileds of the class are [apple, pineapple] print out using String.format function. If those values change, they don't change the array lst1 but the values got add to another array ex and got print out by function String.format.
-![]("C:\Users\duong\OneDrive\Pictures\Screenshots\Screenshot(40).png")
+![](https://github.com/tnduong2807/wavelet/blob/master/Screenshot%20(40).png?raw=true)
 
 ## Part 2
 * First bug in the code from file ArrayExamples.java:

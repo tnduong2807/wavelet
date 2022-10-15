@@ -59,6 +59,7 @@ class SearchEngine {
     }
 }
 ```
+
 * This is the result after I using two add and add two values "apple" and "banana". The method handleRequest in my code called. The values of the relevant arguments to those methods are URI url or "/add?s=apple" and "/add?s=banana". The values of any relevant fields of the class are ArrayList<String> lst1 or [apple, banana]. If those values change, they change the array lst1 by adding strings into the array by the time the request is done processing.
 
 ![](https://github.com/tnduong2807/wavelet/blob/master/Screenshot%20(38).png?raw=true)
@@ -74,7 +75,8 @@ class SearchEngine {
 
 
 ## Part 2
-* First bug in the code from file ArrayExamples.java:
+* **First bug in the code from file ArrayExamples.java:**
+
 ```
 static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
@@ -82,11 +84,13 @@ static void reverseInPlace(int[] arr) {
     }
   }
 ```
+
 * The failure-inducing input is testing the array list {1, 2, 3, 4, 5}, the array list have to reverse and change into {5, 4, 3, 2, 1} after went in the function reverseInPlace.
 * The symptom is the array list change into {5, 4, 3, 4, 5}.
 * The bug is that the array change and override the elements in it for the second half of the array.
 * The connection between the symptom and the bug is that the bug is the problem or logic error in the function and the symptom is the output of the function. The bug cause that particular symptom for that particular input because the function have an logic error, it change the function and override the elements inside the array list.
 * This is the code after fixed:
+
 ```
 static void reverseInPlace(int[] arr) {
     int[] newArray = arr.clone();
@@ -96,7 +100,8 @@ static void reverseInPlace(int[] arr) {
   }
 ```
 
-* Second bug in the code from file ListExamples.java:
+* **Second bug in the code from file ListExamples.java:**
+
 ```
 static List<String> merge(List<String> list1, List<String> list2) {
     List<String> result = new ArrayList<>();
@@ -122,11 +127,13 @@ static List<String> merge(List<String> list1, List<String> list2) {
     return result;
   }
 ```
+
 * The failure-inducing is testing the two array list {a, c, e} and {b, d}, the function should return an output array list that have elements {a, b, c, d, e}.
 * The symptom is that the program trow an exception say OutOfMemoryError: Java heap space.
 * The bug is that the while loops keep running, don't stop and cause the program to crash.
 * The connection between the symptom and the bug is that the bug is while loops keep running and cause the symptom that the program throw an exception. The bug cause that particular symptom for that particular input because the function have an run time exception, it cause by the conditions of the while loops never statify so it don't end cause the program to crash.
 * This is the code after fixed:
+
 ```
 static List<String> merge(List<String> list1, List<String> list2) {
     List<String> result = new ArrayList<>();

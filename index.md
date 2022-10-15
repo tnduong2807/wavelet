@@ -2,6 +2,7 @@
 
 ## Part 1
 * This is the code for my **Simplest Search Engine fom week 2**:
+
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -70,6 +71,7 @@ class SearchEngine {
 * This is the result when using query search to find the elements in the array that contains the input string. The method handleRequest in my code called. The values of the relevant arguments to the method is URI url or "/search?s=app". The values of any relevant fileds of the class are [apple, pineapple] print out using String.format function. If those values change, they don't change the array lst1 but the values got add to another array ex and got print out by function String.format.
 
 ![](https://github.com/tnduong2807/wavelet/blob/master/Screenshot%20(40).png?raw=true)
+
 
 ## Part 2
 * First bug in the code from file ArrayExamples.java:

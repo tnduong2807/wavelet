@@ -88,7 +88,7 @@ static void reverseInPlace(int[] arr) {
 * The failure-inducing input is testing the array list {1, 2, 3, 4, 5}, the array list have to reverse and change into {5, 4, 3, 2, 1} after went in the function reverseInPlace.
 **This is a screenshot for one of the valid outputs of the function reverseInPlace:**
 
-![](C:\Users\duong\OneDrive\Documents\GitHub\wavelet\Screenshot (50).png?raw=true)
+![](https://github.com/tnduong2807/wavelet/blob/master/Screenshot%20(50).png?raw=true)
 
 * The symptom is the array list change into {5, 4, 3, 4, 5}.
 * The bug is that the array change and override the elements in it for the second half of the array.
@@ -135,7 +135,7 @@ static List<String> merge(List<String> list1, List<String> list2) {
 * The failure-inducing is testing the two array list {a, c, e} and {b, d}, the function should return an output array list that have elements {a, b, c, d, e}.
 **This is a screenshot for one of the valid outputs of the function merge:**
 
-![](C:\Users\duong\OneDrive\Documents\GitHub\wavelet\Screenshot (51).png?raw=true)
+![](https://github.com/tnduong2807/wavelet/blob/master/Screenshot%20(51).png?raw=true)
 
 * The symptom is that the program throw an exception say OutOfMemoryError: Java heap space.
 * The bug is that the while loops keep running, don't stop and cause the program to crash.

@@ -86,6 +86,9 @@ static void reverseInPlace(int[] arr) {
 ```
 
 * The failure-inducing input is testing the array list {1, 2, 3, 4, 5}, the array list have to reverse and change into {5, 4, 3, 2, 1} after went in the function reverseInPlace.
+
+![](C:\Users\duong\OneDrive\Documents\GitHub\wavelet\Screenshot (50).png?raw=true)
+
 * The symptom is the array list change into {5, 4, 3, 4, 5}.
 * The bug is that the array change and override the elements in it for the second half of the array.
 * The connection between the symptom and the bug is that the bug is the problem or logic error in the function and the symptom is the output of the function. The bug cause that particular symptom for that particular input because the function have an logic error, it change the function and override the elements inside the array list.
@@ -129,7 +132,10 @@ static List<String> merge(List<String> list1, List<String> list2) {
 ```
 
 * The failure-inducing is testing the two array list {a, c, e} and {b, d}, the function should return an output array list that have elements {a, b, c, d, e}.
-* The symptom is that the program trow an exception say OutOfMemoryError: Java heap space.
+
+![](C:\Users\duong\OneDrive\Documents\GitHub\wavelet\Screenshot (51).png?raw=true)
+
+* The symptom is that the program throw an exception say OutOfMemoryError: Java heap space.
 * The bug is that the while loops keep running, don't stop and cause the program to crash.
 * The connection between the symptom and the bug is that the bug is while loops keep running and cause the symptom that the program throw an exception. The bug cause that particular symptom for that particular input because the function have an run time exception, it cause by the conditions of the while loops never statify so it don't end cause the program to crash.
 * This is the code after fixed:

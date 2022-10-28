@@ -86,10 +86,7 @@ static void reverseInPlace(int[] arr) {
 ```
 
 * The failure-inducing input is testing the array list {1, 2, 3, 4, 5}, the array list have to reverse and change into {5, 4, 3, 2, 1} after went in the function reverseInPlace.
-
-
-**This is a screenshot for one of the valid outputs of the function reverseInPlace:**
-
+*This is a screenshot for one of the valid outputs of the function reverseInPlace:
 
 ![](https://github.com/tnduong2807/wavelet/blob/master/Screenshot%20(50).png?raw=true)
 
@@ -136,10 +133,7 @@ static List<String> merge(List<String> list1, List<String> list2) {
 ```
 
 * The failure-inducing is testing the two array list {a, c, e} and {b, d}, the function should return an output array list that have elements {a, b, c, d, e}.
-
-
-**This is a screenshot for one of the valid outputs of the function merge:**
-
+*This is a screenshot for one of the valid outputs of the function merge:
 
 ![](https://github.com/tnduong2807/wavelet/blob/master/Screenshot%20(51).png?raw=true)
 
